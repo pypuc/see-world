@@ -152,26 +152,52 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 100%;
-font-family: inherit;
+    font-family: inherit;
 }
 
-.advirtisement {}
+.advirtisement {
+    padding-top: 51px;
+    padding-bottom: 68px;
+}
+
+.advirtisement-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.advirtisement-item {
+    max-width: 630px;
+}
 
 .advirtisement-subtitle {
-    text-align: center;
     font-family: Play;
     font-size: 40px;
     line-height: 100%;
+    margin-bottom: 28px;
 }
 
 .advirtisement-name {
     text-align: center;
     font-size: 32px;
     line-height: 100%;
+    margin-top: 32px;
 
 }
 
 .countries {}
+
+.countries-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.countries-box {
+    display: flex;
+    padding-left: 918px;
+}
 
 .countries-subtitle {
     text-align: center;

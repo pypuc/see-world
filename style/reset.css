@@ -16,3 +16,9 @@ a {
 button {
     border: none;
 }
+
+img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
