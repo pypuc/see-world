@@ -27,7 +27,6 @@ body {
     color: var(--text-color, #111);
     font-weight: 700;
     background-color: #EBF8FF;
-    ;
 }
 
 
@@ -59,7 +58,11 @@ body {
     border: 3px solid
 }
 
-
+.header-button:hover {
+    color:#EBF8FF;
+    background-color: var(--link-color)
+    
+}
 
 .header-list {
     display: flex;
@@ -140,6 +143,11 @@ body {
     font-family: inherit;
 }
 
+.hero-button:hover {
+color: #E96E25;
+background-color:transparent
+}
+
 .hero-btn {
     border: 2px solid #E96E25;
     background-color: transparent;
@@ -155,6 +163,11 @@ body {
     font-weight: 700;
     line-height: 100%;
     font-family: inherit;
+}
+
+.hero-btn:hover   {
+color:#EBF8FF;
+background-color:#E96E25
 }
 
 .advirtisement {
@@ -255,7 +268,6 @@ body {
 .last-subtitle {
     font-size: 40px;
     line-height: 100%;
-    margin-bottom: 32px;
 }
 
 .last-title {
@@ -276,10 +288,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 32px;
 }
 
 .last-photo {
-    padding-bottom: 12px;
+    margin-bottom: 12px;
 }
 
 .last-box {
@@ -315,7 +328,7 @@ body {
 
 .footer-photo {
     width: 60px;
-    height: 68px;
+    height: 60px;
 }
 
 .footer-logo {
@@ -324,6 +337,10 @@ body {
     font-size: 18px;
     line-height: 100%;
     margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer-social {
