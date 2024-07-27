@@ -1,181 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&family=Raleway:wght@300;400;500;700&family=Roboto&family=Syne&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&family=Raleway:wght@300;400;500;700&family=Roboto&family=Syne&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&family=Raleway:wght@300;400;500;700&family=Roboto&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Syne&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&family=Raleway:wght@300;400;500;700&family=Roboto&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Syne&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Play:wght@400;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&family=Raleway:wght@300;400;500;700&family=Roboto&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Syne&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./style/reset.css">
-    <link rel="stylesheet" href="./style/style.css">
-</head>
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Play:wght@400;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&family=Raleway:wght@300;400;500;700&family=Roboto&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Syne&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <div class="container header-container">
-            <button>
-                <svg class="header-icone">
+      <div class="container header__container">
+        <button>
+          <svg class="header__icone">
+            <use href="./images/symbol-defs.svg#icon-menu"></use>
+          </svg>
+        </button>
+        <a href="/" class="header__logo">
+          <svg class="header__icon">
+            <use href="./images/symbol-defs.svg#icon-logo"></use>
+          </svg>
 
-                    <use href="./images/symbol-defs.svg#icon-menu"></use>
-                </svg>
-            </button>
-            <a href="" class="header-logo">
-                <svg class="header-icon">
+          <p class="header__text">See World</p>
+        </a>
+        <ul class="header__list">
+          <li class="hesder__item">
+            <a href="/" class="header__page">Головна </a>
+          </li>
+          <li class="header__item">
+            <a href="/" class="header__page">Всі оголошення</a>
+          </li>
 
-                    <use href="./images/symbol-defs.svg#icon-logo"></use>
-                </svg>
-
-
-                <p class="header-text">
-                    See World
-                </p>
+          <li class="header__item">
+            <a href="">
+              <svg class="header__heart">
+                <use href="./images/symbol-defs.svg#icon-heart"></use>
+              </svg>
             </a>
-            <ul class="header-list">
-                <li class="hesder-item"><a href="" class="header-page">Головна </a></li>
-                <li class="header-item"><a href="" class="header-page">Всі оголошення</a></li>
+          </li>
 
-                <li class="header-item"><a href="">
-                        <svg class="header-heart">
-                            <use href="./images/symbol-defs.svg#icon-heart"></use>
-                        </svg>
-                    </a>
+          <li class="header__item">
+            <a href="/" class="header__page header__flex">
+              <svg class="header__user">
+                <use href="./images/symbol-defs.svg#icon-user"></use>
+              </svg>
 
-                </li>
-
-                <li class="header-item"><a href="" class="header-page header-flex ">
-                        <svg class="header-user">
-                            <use href="./images/symbol-defs.svg#icon-user"></use>
-                        </svg>
-
-                        Особистий кабінет</a></li>
-
-            </ul>
-            <button class="header-button">
-                Зареєстуватись
-            </button>
-        </div>
-
-
+              Особистий кабінет</a
+            >
+          </li>
+        </ul>
+        <button class="header__button">Зареєстуватись</button>
+      </div>
     </header>
     <main class>
-        <!-- <section class="hero">
+      <section class="hero">
             <div class="container">
-                <h1 class="hero-title">
+                <h1 class="hero__title">
                     Знайди
                     своє місце
                 </h1>
-                <h2 class="hero-subtitle">
+                <h2 class="hero__subtitle">
                     Подорожуй зі смаком
                 </h2>
-                <button class="hero-button">
+                <button class="hero__button">
                     Знайти оголошення
                 </button>
-                <button class="hero-btn">
+                <button class="hero__btn">
                     Подати оголошення
                 </button>
             </div>
-        </section> -->
+        </section>
 
-
-        <!-- <section class="advirtisement">
+      <section class="advirtisement">
             <div class="container">
-                <h2 class="advirtisement-subtitle">
+                <h2 class="advertisement__subtitle">
                     Критерії оголошення
                 </h2>
-                <ul class="advirtisement-list">
-                    <li class="advirtisement-item">
-                        <img class="advirtisement-photo" src="./images/house.webp" alt="house">
-                        <h3 class="advirtisement-name">Будинки</h3>
+                <ul class="advertisement__list">
+                    <li class="advertisement__item">
+                        <img class="advertisement__photo" src="./images/house.webp" alt="house">
+                        <h3 class="advertisement__name">Будинки</h3>
                     </li>
-                    <li class="advirtisement-item">
+                    <li class="advertisement__item">
                         <img src="./images/kitchen.webp" alt="kitchen">
-                        <h3 class="advirtisement-name">Студії</h3>
+                        <h3 class="advertisement__name">Студії</h3>
                     </li>
-                    <li class="advirtisement-item">
-                        <img class="advirtisement-photo" src="./images/block.webp" alt="block">
-                        <h3 class="advirtisement-name">Квартири</h3>
+                    <li class="advertisement__item">
+                        <img class="advertisement__photo" src="./images/block.webp" alt="block">
+                        <h3 class="advertisement__name">Квартири</h3>
                     </li>
-                    <li class="advirtisement-item">
-                        <img class="advirtisement-photo" src="./images/bed.webp" alt="bed">
-                        <h3 class="advirtisement-name">Кімнати</h3>
+                    <li class="advertisement__item">
+                        <img class="advertisement__photo" src="./images/bed.webp" alt="bed">
+                        <h3 class="advertisement__name">Кімнати</h3>
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section>
 
-        <!-- <section class="countries">
+      <section class="countries">
             <div class="container">
-                <h2 class="countries-subtitle">
+                <h2 class="countries__subtitle">
                     Найпопулярніші країни для подорожей
                 </h2>
-                <div class="countries-box">
-                    <h3 class="countries-tatris-title">Франція</h3>
-                    <a href="" class="countries-logo"> Відкрити всі оголошення</a>
+                <div class="countries__box">
+                    <h3 class="countries__tatris-title">Франція</h3>
+                    <a href="" class="countries__logo"> Відкрити всі оголошення</a>
                 </div>
-                <ul class="countries-list">
-                    <li class="countries-item">
-                        <img class="countries-photo" src="./images/nantes.webp" alt="Nantes">
-                        <p class="countries-text">Nantes</p>
-                        <p class="countries-text">10 753 готелів</p>
+                <ul class="countries__list">
+                    <li class="countries__item">
+                        <img class="countries__photo" src="./images/nantes.webp" alt="Nantes">
+                        <p class="countries__text">Nantes</p>
+                        <p class="countries__text">10 753 готелів</p>
                     </li>
-                    <li class="countries-item">
-                        <img class="countries-photo" src="./images/Montpellier.webp" alt="Montpellier">
-                        <p class="countries-text">Montpellier</p>
-                        <p class="countries-text">11 386 готелів</p>
+                    <li class="countries__item">
+                        <img class="countries__photo" src="./images/Montpellier.webp" alt="Montpellier">
+                        <p class="countries__text">Montpellier</p>
+                        <p class="countries__text">11 386 готелів</p>
                     </li>
                     <li>
 
-                        <img class="countries-photo" src="./images/Paris.webp" alt="Paris">
-                        <p class="countries-text">Paris</p>
-                        <p class="countries-text">12 278 готелів</p>
+                        <img class="countries__photo" src="./images/Paris.webp" alt="Paris">
+                        <p class="countries__text">Paris</p>
+                        <p class="countries__text">12 278 готелів</p>
                     </li>
-                    <li class="countries-item">
-                        <img class="countries-photo" src="./images/Venezia.webp" alt="Venezuela">
-                        <p class="countries-text">Venezia</p>
-                        <p class="countries-text">14 120 готелів</p>
+                    <li class="countries__item">
+                        <img class="countries__photo" src="./images/Venezia.webp" alt="Venezuela">
+                        <p class="countries__text">Venezia</p>
+                        <p class="countries__text">14 120 готелів</p>
                     </li>
                     <li>
-                        <img class="countries-photo" src="./images/Firenze.webp" alt="Frirenze">
-                        <p class="countries-text">Firenze</p>
-                        <p class="countries-text">7 988 готелів</p>
+                        <img class="countries__photo" src="./images/Firenze.webp" alt="Frirenze">
+                        <p class="countries__text">Firenze</p>
+                        <p class="countries__text">7 988 готелів</p>
                     </li>
-                    <li class="countries-item">
-                        <img class="countries-photo" src="./images/roma.webp" alt="Roma">
-                        <p class="countries-text">Roma</p>
-                        <p class="countries-text">12 809 готелів</p>
+                    <li class="countries__item">
+                        <img class="countries__photo" src="./images/roma.webp" alt="Roma">
+                        <p class="countries__text">Roma</p>
+                        <p class="countries__text">12 809 готелів</p>
                     </li>
-                    <li class="countries-item">
-                        <img class="countries-photo" src="./images/Selvia.jpg" alt="Selvia">
-                        <p class="countries-text">Selvia</p>
-                        <p class="countries-text">8 984готелів</p>
+                    <li class="countries__item">
+                        <img class="countries__photo" src="./images/Selvia.jpg" alt="Selvia">
+                        <p class="countries__text">Selvia</p>
+                        <p class="countries__text">8 984готелів</p>
                     </li>
-                    <li class="countries-item">
-                        <img class="countries-photo" src="./images/Madrit.jpg" alt="Madrit">
-                        <p class="countries-text">Madrit</p>
-                        <p class="countries-text">15 325 готелів</p>
+                    <li class="countries__item">
+                        <img class="countries__photo" src="./images/Madrit.jpg" alt="Madrit">
+                        <p class="countries__text">Madrit</p>
+                        <p class="countries__text">15 325 готелів</p>
                     </li>
-                    <li class="countries-item">
-                        <img class="countries-photo" src="./images/Mallorca.jpg" alt="Mallorca">
-                        <p class="countries-text">Mallorca</p>
-                        <p class="countries-text">
+                    <li class="countries__item">
+                        <img class="countries__photo" src="./images/Mallorca.jpg" alt="Mallorca">
+                        <p class="countries__text">Mallorca</p>
+                        <p class="countries__text">
 
                             9 825 готелів
                         </p>
@@ -183,140 +184,140 @@
                 </ul>
             </div>
 
-        </section> -->
-        <!-- <section class="last">
+        </section>
+      <section class="last">
             <div class="container">
-                <div class="last-folder">
-                    <h2 class="last-subtitle">
+                <div class="last__folder">
+                    <h2 class="last__subtitle">
                         Останні оголошення
                     </h2>
-                    <a href="" class="last-title">
+                    <a href="" class="last__title">
                         Відкрити всі оголошення
                     </a>
                 </div>
-                <ul class="last-list">
+                <ul class="last__list">
                     <li class="">
-                        <img class="last-photo" src="./images/room3.webp" alt="Vila Gale Lagos Hotel">
-                        <div class="last-box">
-                            <h3 class="last-name">Vila Gale Lagos Hotel</h3>
-                            <p class="last-text">Andresen, Portugal </p>
-                            <p class="last-rating">7,1</p>
+                        <img class="last__photo" src="./images/room3.webp" alt="Vila Gale Lagos Hotel">
+                        <div class="last__box">
+                            <h3 class="last__name">Vila Gale Lagos Hotel</h3>
+                            <p class="last__text">Andresen, Portugal </p>
+                            <p class="last__rating">7,1</p>
                         </div>
                     </li>
-                    <li class="last-item">
-                        <img class="last-photo" src="./images/bedroom.webp" alt="Cala Moresca ">
-                        <div class="last-box">
-                            <h3 class="last-name">Cala Moresca </h3>
-                            <p class="last-text">Via Faro, Italy</p>
-                            <p class="last-rating">8,6</p>
-                        </div>
-
-                    </li>
-                    <li class="last-item">
-                        <img class="last-photo" src="./images/kitchen2.webp" alt="Horison Blu">
-                        <div class="last-box">
-                            <h3 class="last-name">Horison Blu</h3>
-                            <p class="last-text">Petrou Karakousi, Greece</p>
-                            <p class="last-rating">5,9</p>
+                    <li class="last__item">
+                        <img class="last__photo" src="./images/bedroom.webp" alt="Cala Moresca ">
+                        <div class="last__box">
+                            <h3 class="last__name">Cala Moresca </h3>
+                            <p class="last__text">Via Faro, Italy</p>
+                            <p class="last__rating">8,6</p>
                         </div>
 
                     </li>
-                    <li class="last-item">
-                        <img class="last-photo" src="./images/room3.webp" alt="Le Galion Hotel">
-                        <div class="last-box">
-                            <h3 class="last-name">Le Galion Hotel</h3>
-                            <p class="last-text">Saint-Martin-de-Re, France</p>
-                            <p class="last-rating">8,4</p>
+                    <li class="last__item">
+                        <img class="last__photo" src="./images/kitchen2.webp" alt="Horison Blu">
+                        <div class="last__box">
+                            <h3 class="last__name">Horison Blu</h3>
+                            <p class="last__text">Petrou Karakousi, Greece</p>
+                            <p class="last__rating">5,9</p>
+                        </div>
+
+                    </li>
+                    <li class="last__item">
+                        <img class="last__photo" src="./images/room3.webp" alt="Le Galion Hotel">
+                        <div class="last__box">
+                            <h3 class="last__name">Le Galion Hotel</h3>
+                            <p class="last__text">Saint-Martin-de-Re, France</p>
+                            <p class="last__rating">8,4</p>
                         </div>
 
                     </li>
                     <li>
-                        <img class="last-photo" src="./images/roma.webp" alt="Molitor Hotel">
-                        <div class="last-box">
-                            <h3 class="last-name">Molitor Hotel</h3>
-                            <p class="last-text">Paris, France</p>
-                            <p class="last-rating">6,9</p>
+                        <img class="last__photo" src="./images/roma.webp" alt="Molitor Hotel">
+                        <div class="last__box">
+                            <h3 class="last__name">Molitor Hotel</h3>
+                            <p class="last__text">Paris, France</p>
+                            <p class="last__rating">6,9</p>
                         </div>
 
                     </li>
-                    <li class="last-item">
-                        <img class="last-photo" src="./images/sofa.jpg" alt="Sierra de Meira">
-                        <div class="last-box">
-                            <h3 class="last-name">Sierra de Meira</h3>
-                            <p class="last-text">Madrid, Spain</p>
-                            <p class="last-rating">7,4</p>
+                    <li class="last__item">
+                        <img class="last__photo" src="./images/sofa.jpg" alt="Sierra de Meira">
+                        <div class="last__box">
+                            <h3 class="last__name">Sierra de Meira</h3>
+                            <p class="last__text">Madrid, Spain</p>
+                            <p class="last__rating">7,4</p>
                         </div>
 
                     </li>
-                    <li class="last-item">
-                        <img class="last-photo" src="./images/villa2.webp" alt="Petit Hotel">
-                        <div class="last-box">
-                            <h3 class="last-name">Petit Hotel</h3>
-                            <p class="last-text">Madrid, Spain</p>
-                            <p class="last-rating">7,2</p>
+                    <li class="last__item">
+                        <img class="last__photo" src="./images/villa2.webp" alt="Petit Hotel">
+                        <div class="last__box">
+                            <h3 class="last__name">Petit Hotel</h3>
+                            <p class="last__text">Madrid, Spain</p>
+                            <p class="last__rating">7,2</p>
                         </div>
 
                     </li>
-                    <li class="last-item">
-                        <img class="last-photo" src="./images/vilal.webp" alt="Gran Hotel">
-                        <div class="last-box">
-                            <h3 class="last-name">Gran Hotel</h3>
-                            <p class="last-text">Alicante, Spain</p>
-                            <p class="last-rating">8,9</p>
+                    <li class="last__item">
+                        <img class="last__photo" src="./images/vilal.webp" alt="Gran Hotel">
+                        <div class="last__box">
+                            <h3 class="last__name">Gran Hotel</h3>
+                            <p class="last__text">Alicante, Spain</p>
+                            <p class="last__rating">8,9</p>
                         </div>
 
                     </li>
-                    <li class="last-item">
-                        <img class="last-photo" src="./images/bedroom.jpg" alt="KViHotel">
-                        <div class="last-box">
-                            <h3 class="last-name">KViHotel</h3>
-                            <p class="last-text">Madrid, Spain</p>
-                            <p class="last-rating">7,2</p>
+                    <li class="last__item">
+                        <img class="last__photo" src="./images/bedroom.jpg" alt="KViHotel">
+                        <div class="last__box">
+                            <h3 class="last__name">KViHotel</h3>
+                            <p class="last__text">Madrid, Spain</p>
+                            <p class="last__rating">7,2</p>
                         </div>
 
                     </li>
                 </ul>
             </div>
 
-        </section> -->
+        </section>
     </main>
-    <!-- <footer class="footer">
+    <footer class="footer">
         <div class="container">
-            <div class=" footer-container">
-                <a class="footer-logo" href="">
-                    <img class="footer-photo" src="./images/planet1.webp" alt="planet">See World</a>
+            <div class="footer__container">
+                <a class="footer__logo" href="">
+                    <img class="footer__photo" src="./images/planet1.webp" alt="planet">See World</a>
 
 
-                <ul class="footer-list">
-                    <li class="footer-item">
-                        <a class="footer-link" href="">Головна </a>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a class="footer__link" href="">Головна </a>
                     </li>
-                    <li class="footer-item">
-                        <a class="footer-link" href="">Всі оголошення</a>
+                    <li class="footer__item">
+                        <a class="footer__link" href="">Всі оголошення</a>
                     </li>
-                    <li class="footer-item">
-                        <a class="footer-link" href="">Обране</a>
+                    <li class="footer__item">
+                        <a class="footer__link" href="">Обране</a>
                     </li>
-                    <li class="footer-item">
-                        <a class="footer-link" href="">Особистий кабінет</a>
-                        <ul class="footer-socials">
-                            <li class="footer-item">
+                    <li class="footer__item">
+                        <a class="footer__link" href="">Особистий кабінет</a>
+                        <ul class="footer__socials">
+                            <li class="footer__item">
                                 <a href="">
-                                    <img class="footer-social" src="./images/facebook.webp" alt="facebook">
+                                    <img class="footer__social" src="./images/facebook.webp" alt="facebook">
                                 </a>
                             </li>
-                            <li class="footer-list">
+                            <li class="footer__list">
                                 <a href="">
-                                    <img class="footer-social" src="./images/youtube.webp" alt="youtube">
+                                    <img class="footer__social" src="./images/youtube.webp" alt="youtube">
                                 </a>
                             </li>
-                            <li class="footer-item">
+                            <li class="footer__item">
                                 <a href="">
-                                    <img class="footer-social" src="./images/instagram.webp" alt="instagram">
+                                    <img class="footer__social" src="./images/instagram.webp" alt="instagram">
                                 </a>
                             </li>
-                            <li class="footer-item"><a href="">
-                                    <img class="footer-social" src="./images/twitter.png" alt="twitter">
+                            <li class="footer__item"><a href="">
+                                    <img class="footer__social" src="./images/twitter.png" alt="twitter">
                                 </a>
                             </li>
                         </ul>
@@ -325,11 +326,9 @@
             </div>
 
 
-            <p class="footer-text">©Всі права захищені.</p>
+            <p class="footer__text">©Всі права захищені.</p>
         </div>
 
-    </footer> -->
-
-</body>
-
+    </footer>
+  </body>
 </html>
