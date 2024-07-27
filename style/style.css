@@ -32,6 +32,8 @@ body {
 
 .header {}
 
+
+
 .header-container {
     display: flex;
     align-items: center;
@@ -42,6 +44,31 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.header-icon {
+    height: 55px;
+    width: 55px;
+    fill:var(--link-color);
+}
+
+.header-heart {
+    height: 24px;
+    width: 24px;
+    fill: var(--link-color);
+}
+
+.header-flex {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.header-user {
+height: 24px;
+width: 24px;
+fill: var(--link-color);
+
 }
 
 .header-photo {
