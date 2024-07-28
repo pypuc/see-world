@@ -6,25 +6,43 @@
     &__container {
         display: flex;
         align-items: center;
+
+
     
+    }
+
+    &__btn {
+        background-color: transparent;
+        display: inline;
+        margin-right: 35px;
+
+        @media screen and (min-width: 768px){
+            display: none;
+        }
     }
     
     &__icone {
         width: 40px;
         height: 30px;
-        fill: #266294;
+        fill: $link-color;
+
     }
     
     &__logo {
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        
+        @media screen and (max-width: 768px){
+            margin-right: 35px;
+        }
     }
     
     &__icon {
         height: 40px;
         width: 40px;
-        fill:var(--link-color);
+        fill: $link-color;
         @media screen and (min-width:1200px){
             height: 55px;
             width: 55px;
@@ -34,7 +52,7 @@
     &__heart {
         height: 24px;
         width: 24px;
-        fill: var(--link-color);
+        fill: $link-color;
     }
     
     &__flex {
@@ -44,9 +62,9 @@
     }
     
     &__user {
-    height: 24px;
-    width: 24px;
-    fill: var(--link-color);
+        height: 24px;
+        width: 24px;
+        fill: $link-color;
     
     }
     
@@ -56,12 +74,13 @@
     }
     
     &__button {
-        padding-top: 12px;
-        padding-bottom: 12px;
-        padding-left: 16px;
-        padding-right: 16px;
+        padding: 12px 16px 12px 16px;
         background-color: transparent;
         border: 3px solid;
+        @media screen and (min-width:768px){
+            padding-left: 23px;
+            padding-right: 23px;
+        }
         @media screen and (min-width:1200px){
             padding-left: 28px;
             padding-right: 28px;
@@ -69,41 +88,57 @@
     }
     
     &__button:hover {
-        color:#EBF8FF;
-        background-color: var(--link-color)
+        color: $title-color;
+        background-color: $link-color
         
     }
     
     &__list {
         display: none;
-        gap: 60px;
-        margin-right: 155px;
-        margin-left: 155px;
-        @media screen and (min-width:1200px){
+        @media screen and (min-width:768px){
             display: flex;
+            gap: 10px;
+            margin-left: 38px;
+            margin-right: 38px;
+        }
+        @media screen and (min-width:1200px){
+            gap: 60px;
+            margin-right: 138px;
+            margin-left: 138px;
         }
     }
     
     &__text {
-        color: var(--link-color, #266294);
+        color: $link-color;
         text-align: center;
         font-size: 15px;
+        width: 73px;
         line-height: 100%;
         @media screen and (min-width:1200px){
             font-size: 18px;
+            width: 87px;
         }
     }
     
     &__page {
-        color: var(--link-color, #266294);
+        color: $link-color;
         text-align: center;
-        font-size: 20px;
         line-height: 130%;
+
+        @media screen and (min-width:768px){
+            font-size: 16px;
+        }
+        @media screen and (min-width:1200px){
+            font-size: 17px;
+        }
+        @media screen and (min-width:1300px){
+            font-size: 20px;
+        }
         
     }
     
     &__button {
-        color: var(--link-color, #266294);
+        color: $link-color;
         text-align: center;
         font-size: 14px;
         line-height: 100%;
