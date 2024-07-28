@@ -30,7 +30,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="./sass/main.scss" />
   </head>
 
   <body>
@@ -79,24 +79,45 @@
     </header>
     <main class>
       <section class="hero">
-            <div class="container">
-                <h1 class="hero__title">
-                    Знайди
-                    своє місце
-                </h1>
-                <h2 class="hero__subtitle">
-                    Подорожуй зі смаком
-                </h2>
-                <button class="hero__button">
-                    Знайти оголошення
-                </button>
-                <button class="hero__btn">
-                    Подати оголошення
-                </button>
-            </div>
-        </section>
+        <div class="container">
+          <div class="hero__father">
+            <picture class="hero__pict">
+                <source
+                  srcset="
+                    ./images/desktop/pictsmall@desktop1x.webp 1x,
+                    ./images/desktop/pictsmall@desktop2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/tablet/pictsmall@tablet1x.webp 1x,
+                    ./images/tablet/pictsmall@tablet2x.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/mobile/pictsmall@mobile1x.webp 1x,
+                    ./images/mobile/pictsmall@mobile2x.webp 2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  class="hero__images"
+                  src="./images/desktop/pictsmall@desktop1x.webp"
+                  alt="laptop"
+                />
+              </picture>
+              <h1 class="hero__title">Знайди своє місце</h1>
+          </div>
+          <h2 class="hero__subtitle">Подорожуй зі смаком</h2>
+          <button class="hero__button">Знайти оголошення</button>
+          <button class="hero__btn">Подати оголошення</button>
+        </div>
+      </section>
 
-      <section class="advirtisement">
+      <!-- <section class="advirtisement">
             <div class="container">
                 <h2 class="advertisement__subtitle">
                     Критерії оголошення
@@ -120,9 +141,9 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
 
-      <section class="countries">
+      <!-- <section class="countries">
             <div class="container">
                 <h2 class="countries__subtitle">
                     Найпопулярніші країни для подорожей
@@ -184,8 +205,8 @@
                 </ul>
             </div>
 
-        </section>
-      <section class="last">
+        </section> -->
+      <!-- <section class="last">
             <div class="container">
                 <div class="last__folder">
                     <h2 class="last__subtitle">
@@ -279,9 +300,9 @@
                 </ul>
             </div>
 
-        </section>
+        </section> -->
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="container">
             <div class="footer__container">
                 <a class="footer__logo" href="">
@@ -329,6 +350,7 @@
             <p class="footer__text">©Всі права захищені.</p>
         </div>
 
-    </footer>
+    </footer> -->
+    <script src="./index.js" type="module"></script>
   </body>
 </html>
