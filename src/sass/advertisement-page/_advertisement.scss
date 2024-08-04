@@ -1,0 +1,207 @@
+.advert {
+  padding-top: 38px;
+  padding-bottom: 48px;
+
+  &__heding {
+    color: #111;
+    font-family: Play;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    padding-bottom: 32px;
+  }
+
+  &__div {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 32px;
+  }
+
+  &__choice {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  &__input {
+    width: 15px;
+    height: 15px;
+  }
+
+  &__label {
+    color: #111;
+    text-align: center;
+    font-family: Play;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+  }
+
+  &__button {
+    justify-content: space-between;
+    width: 108px;
+    padding: 12px 28px;
+    color: #266294;
+    font-family: Play;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    border: 2px solid #266294;
+  }
+
+  &__open {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 32px;
+  }
+
+  &__title {
+    width: 302px;
+    color: #111;
+    font-family: Play;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    margin-bottom: 12px;
+  }
+
+  &__btnopen {
+    color: #266294;
+    display: flex;
+    padding: 12px 0px;
+    align-items: flex-start;
+    gap: 10px;
+    border-bottom: 2px solid #266294;
+  }
+
+  &__list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-bottom: 48px;
+  }
+
+  &__img {
+    width: 413px;
+    height: 300px;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+    margin-bottom: 12px;
+  }
+
+  &__subtitle {
+    color: #111;
+    font-family: Play;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    padding-left: 12px;
+  }
+
+  &__address {
+    color: #766f6f;
+    font-family: Play;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+
+  &__point {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding-left: 12px;
+  }
+
+  &__star {
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+    stroke-width: 1px;
+    fill: #266294;
+  }
+
+  &__rating {
+    color: #266294;
+    font-family: Play;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+  }
+
+  &__titles {
+    width: 346px;
+    flex-shrink: 0;
+    color: #111;
+    font-family: Play;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    margin-bottom: 12px;
+  }
+
+  &__lists {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-bottom: 32px;
+  }
+
+  &__download {
+    width: 305px;
+    padding: 14px;
+    color: #766f6f;
+    text-align: center;
+    font-family: Play;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    border: 2px solid #b0a2a2;
+  }
+
+  &__box {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 18px;
+    justify-content: space-between;
+    
+  }
+
+  &__number {
+    text-align: center;
+    display: block;
+    width: 14px;
+    height: 24px;
+    color: #266294;
+    text-align: center;
+    font-family: Play;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+  }
+
+  &__lisst {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+  }
+}
