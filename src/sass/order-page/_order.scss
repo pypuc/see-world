@@ -80,7 +80,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 32px;
+    margin-bottom: 8px;
+    @media screen and (min-width: 768px) {
+      display: flex;
+      margin-bottom: 32px;
+    }
   }
 
   &__link {
@@ -130,6 +134,18 @@
   &__button:hover {
     background-color: $link-color;
     color: #fff;
+  }
+
+  &__heart {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    display: block;
+    left: 285px;
+    top: 30px;
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
   }
 
   &__list {
