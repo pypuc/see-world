@@ -9,6 +9,9 @@
 <symbol id="icon-chevron-right" viewBox="0 0 32 32">
 <path stroke-width="1.6" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="round" d="M12 24l8-8-8-8"></path>
 </symbol>
+<symbol id="icon-ellipse" viewBox="0 0 32 32">
+<path d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+</symbol>
 <symbol id="icon-arrow-right" viewBox="0 0 26 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="0.96" d="M10.24 21.334l5.333-5.333-5.333-5.333"></path>
 </symbol>
