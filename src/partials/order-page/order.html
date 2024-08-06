@@ -12,36 +12,116 @@
     </div>
     <div class="order__bacround">
         <img class="order__heart" src="../../images/heart.webp" alt="heart">
+        <picture>
+          <source
+          srcset="
+          ../../images/desktop/bigroom@desktop-1x.webp 1x,
+          ../../images/desktop/bigroom@desktop-2x.webp 2x
+  "
+          media="(min-width: 1200px)"
+        />
+          <source
+          srcset="
+            ../../images/tablet/bigroom@tablet-1x.webp 1x,
+            ../../images/tablet/bigroom@tablet-2x.webp 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+        srcset="
+          ../../images/mobile/bigroom@mobile-1x.webp 1x,
+          ../../images/mobile/bigroom@mobile-2x.webp 2x
+        "
+        media="(min-width: 320px)"
+      />
       <img
         src="../../images/bigroom.webp"
         alt="bigroom"
         class="order__bigroom"
       />
+    </picture>
     </div>
     <ul class="order__list">
       <li class="order__iteam">
-        <img src="../../images/dorm.webp" alt="dorm" class="order__room" />
-      </li>
-      <li class="order__iteam">
-        <img
-          src="../../images/toillet.webp"
-          alt="toillet"
-          class="order__room"
+        <picture>
+          <source
+          srcset="
+          ../../images/desktop/dorm@desktop-1x.webp 1x,
+          ../../images/desktop/dorm@desktop-2x.webp 2x
+  "
+          media="(min-width: 1200px)"
         />
+          <source
+          srcset="
+            ../../images/tablet/dorm@tablet-1x.webp 1x,
+            ../../images/tablet/dorm@tablet-2x.webp 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <img src="../../images/dorm.webp" alt="dorm" class="order__room" />
+      </picture>
       </li>
       <li class="order__iteam">
+        <picture>
+        <source
+          srcset="
+          ../../images/desktop/toillet@desktop-1x.webp 1x,
+          ../../images/desktop/toillet@desktop-2x.webp 2x
+  "
+          media="(min-width: 1200px)"
+        />
+        <source
+        srcset="
+          ../../images/tablet/toillet@tablet-1x.webp 1x,
+          ../../images/tablet/toillet@tablet-2x.webp 2x
+        "
+        media="(min-width: 768px)"
+      />
+        <img
+        src="../../images/toillet.webp"
+        alt="toillet"
+        class="order__room"
+      />
+        </picture>
+      </li>
+      <li class="order__iteam">
+        <picture>
+          <source
+          srcset="
+          ../../images/desktop/lavatory@desktop-1x.webp 1x,
+          ../../images/desktop/lavatory@desktop-2x.webp 2x
+  "
+          media="(min-width: 1200px)"
+        />
         <img
           src="../../images/lavatory.webp"
           alt="lavatory"
-          class="order__room"
+          class="order__room order__img"
         />
+      </picture>
       </li>
       <li class="order__iteam">
+        <picture>
+        <source
+          srcset="
+          ../../images/desktop/cookery@desktop-1x.webp 1x,
+          ../../images/desktop/cookery@desktop-2x.webp 2x
+  "
+          media="(min-width: 1200px)"
+        />
+        <source
+        srcset="
+          ../../images/tablet/cookery@tablet-1x.webp 1x,
+          ../../images/tablet/cookery@tablet-2x.webp 2x
+        "
+        media="(min-width: 768px)"
+      />
         <img
           src="../../images/cookery.webp"
           alt="cookery"
-          class="order__room order__img"
+          class="order__room"
         />
+      </picture>
       </li>
     </ul>
     <ul class="order__sublist">
